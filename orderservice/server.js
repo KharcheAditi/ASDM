@@ -8,6 +8,8 @@ var ordersController=function(req, res){
     {id:1, customer:"Raj",amount:500, status:"completed"},
     {id:2, customer:"Simran",amount:1500, status:"inprogress"},
     {id:3, customer:"Ram",amount:2500, status:"rejected"}
+		{id:4, customer:"Ravindra",amount:2500, status:"completed"}
+	
   ];
   res.send(orders);
 };
